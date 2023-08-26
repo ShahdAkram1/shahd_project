@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .education-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: calc(33.33% - 20px);
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+  .crop-container {
+    position: relative;
+    width: 10px;
+    height: 95px;
+    background-color: rgb(43, 117, 174);
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
+  }
+  .contentt{
+    width: 140px;
+    height: 14px;
+    background-color: rgb(41, 137, 226);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 3px 3px 1px rgba(128, 128, 128, 0.345);
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #ucas1{
+    font-size: 18px;
+    font-weight:bold;
+    color: #8b8b8b;
+}
+#ucas2{
+    font-size: 18px;
+    font-weight:bold;
+    padding-bottom: 5px;
+    color: #8b8b8b;
+}
+#uni{
+    height: 18px;    
+}
+#container .edu_info{
+    text-align: center;   
+}
+#p{
+    font-size: 17.4px;
+    font-weight:bolder;
+    color: #5a5a5a;
+}
+  
